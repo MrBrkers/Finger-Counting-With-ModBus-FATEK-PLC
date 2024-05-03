@@ -1,0 +1,1 @@
+This program allows you to give commands to the PLC with image processing by watching your hand from the camera and setting some bits of the FATEK PLC according to the number of your fingers. ModBus (RTU) is used for communication in this program.
