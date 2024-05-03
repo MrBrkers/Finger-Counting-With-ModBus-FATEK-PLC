@@ -6,10 +6,9 @@ modbus = ModbusSerialClient(method='rtu', port='COM7', baudrate=9600, parity ='N
 modbus.connect()    
 
 if not modbus.connect() :
-    print("baglidegil")
+    print("not connected")
 if modbus.connect() :
-    #herhangi bir M bitini setlemek icin
-    print("bagli")
+    print("connected")
 
 
 mp_drawing = mp.solutions.drawing_utils
